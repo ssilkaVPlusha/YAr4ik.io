@@ -1,0 +1,74 @@
+.div_f {
+    background-color: #ffffff;
+
+    margin: 0px auto;
+
+    width: auto;
+    height: 900px;
+}
+
+.div_f_container_text {
+    display: flex;
+    justify-content: space-between; /* Размещает элементы по краям */
+    padding: 20px; 
+}
+
+.div_f_container_image {
+    float: right;
+
+    width: 800px;
+    height: 600px;
+
+    margin-right: 100px;
+}
+
+.div_f_container_tabel {
+    float: left;
+
+    width: 800px;
+    height: 600px;
+
+    margin-left: 100px;
+}
+
+.h2_f_main_text {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.h1_f_main_text {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image_f_info {
+    height: 308px;
+    width: 500px;
+
+    float: right;
+    border: 3px solid green;
+}
+
+.table_f {
+    width: 600px;
+    border-collapse: collapse;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.td_f {
+    border: 2px solid #202020; /* Коричневый цвет для рамки */
+    padding: 10px;
+    text-align: left;
+    background-color: #efefef; /* Цвет фона ячеек */
+}
+
+.th_f {
+    background-color: green; /* Темный цвет для заголовков */
+    color: #FFF;
+    font-size: 18;
+}

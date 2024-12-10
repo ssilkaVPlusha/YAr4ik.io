@@ -1,0 +1,40 @@
+.div_info_main_box {
+    background-color: #111111;
+
+    margin: 0px auto;
+
+    width: auto;
+    height: 350px;
+}
+
+.div_info_me_info_box {
+    float: left;
+
+    width: 500px;
+    height: 340px;
+
+    margin-left: 100px;
+}
+
+.div_info_install_box {
+    float: right;
+
+    width: 500px;
+    height: 340px;
+
+    margin-right: 100px;
+}
+
+.h2_settings_text {
+    color: #EFEFEF;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.p_settings_text {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+
+    text-align: justify;/*по ширине выровнять*/
+}

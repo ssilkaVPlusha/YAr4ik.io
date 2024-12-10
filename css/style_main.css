@@ -1,0 +1,67 @@
+.div_m {
+    background-color: #EFEFEF;
+    margin: 0px auto;
+
+    width: auto;
+    height: 896px;
+}
+
+
+.div_mt {
+    background-color: #EFEFEF;
+    box-sizing: border-box;
+
+    position: absolute; /* Используем абсолютное позиционирование */
+    left: 50%; /* Сдвигаем в 50% от левого края */
+    top: 200px; /* Сдвигаем на 100px от верхнего края */
+    transform: translateX(-50%);
+
+    width: 1000px;
+    height: 700px;
+}
+
+.image_m {
+    height: 308px;
+    width: 500px;
+
+    float: left;
+    border: 1px solid black;
+}
+
+.h1_m {
+    padding-left:  520px;
+    margin: 0px ;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p_m {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    padding-left: 520px;
+}
+
+.li_m {
+    margin-left: 535px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.square-button {
+    width: 430px;          /* Ширина кнопки */
+    height: 40px;         /* Высота кнопки */
+    background-color: green; /* Зеленый фон */
+    color: white;          /* Цвет текста */
+    font-size: 20px;       /* Размер текста */
+    border:rgb(from color red blue green);          /* Без границы */
+    cursor: pointer;       /* Курсор в виде руки при наведении */
+    display: flex;         /* Используем flex для центрирования текста */
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;   /* Центрирование по вертикали */
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 520px;
+    margin-top: 60px;
+}
+
+
